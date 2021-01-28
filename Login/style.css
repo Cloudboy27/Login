@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.container {
+display: flex;
+justify-content: center;
+}
+
+.userlabel {
+  font-weight: 700;
+}
+.passlabel {
+  font-weight: 700;
+}
+#Användarnamn { /* How the username input will look like */
+  background: white;
+  outline: outset 1px;
+  border:none;
+}
+
+#Lösenord { /* How the password input will look like */
+  background: white;
+  outline: outset 1px;
+  border:none;
+}
+::placeholder {
+  color: black;
+  font-weight: 300;
+}
+.form-check-label {
+  margin-top: 5px;
+}
+.btn {
+  margin-top: 5px;
+}
+
+.card { /* Filled in the details and style for the card */
+  background: lightblue;
+  text-align: center;
+  padding: 4rem;
+  display: block;
+  top: 50%;
+  position: relative;
+}
+.card-body { /* Putting in the text size and how it will look like*/
+  font-weight: 800;
+  font-size: 30px;
+}
+.form-check-inline { /* Putting in the margin */
+  margin-left: 10px;
+}
+.buttons {
+  display: flex;
+  border-style: solid;
+
+}
